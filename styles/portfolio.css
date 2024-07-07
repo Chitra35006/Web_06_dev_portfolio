@@ -142,3 +142,27 @@ color: rgb(117, 117, 117);
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 padding: 20px;
 }
+
+/* <<<<<<<resume section>>>>>>>>> */
+.resume-container{
+display: flex;
+gap: 24px;
+margin: 20px 100px 80px;
+}
+
+.resume-column-title,.experience-title{
+color:rgb(71, 71, 71);
+}
+.experience-subtitle{
+color:rgb(117, 117, 117);
+}
+.experience-description{
+color:rgb(117, 117, 117);
+opacity: 0.9;  
+}
+.resume hr{
+margin: 30px 5px;
+}
+.btn-download-cv{
+text-align: center;
+}
