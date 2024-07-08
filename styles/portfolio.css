@@ -147,7 +147,7 @@ padding: 20px;
 .resume-container{
 display: flex;
 gap: 24px;
-margin: 20px 100px 80px;
+margin: 20px 100px 100px;
 }
 
 .resume-column-title,.experience-title{
@@ -165,4 +165,23 @@ margin: 30px 5px;
 }
 .btn-download-cv{
 text-align: center;
+}
+/* <<<<<<<<footer section>>>>>>> */
+footer{
+padding: 100px 180px;
+display: flex;
+gap:80px;
+}
+.footer-colum{
+width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    width: 100%;
+    border: none;
 }
